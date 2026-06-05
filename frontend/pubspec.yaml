@@ -1,0 +1,35 @@
+name: famcare_booking
+description: Multi-service bulk scheduler for home healthcare with Riverpod state management.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+  riverpod_generator: ^2.3.0
+
+  # HTTP
+  dio: ^5.3.0
+
+  # Date/Time
+  intl: ^0.19.0
+
+  # UI / Utilities
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.0
+  riverpod_generator: ^2.3.0
+
+flutter:
+  uses-material-design: true
